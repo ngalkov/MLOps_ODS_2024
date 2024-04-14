@@ -19,5 +19,13 @@
     - Development окружение  
     `poetry install`
 
+## Построение Docker образа
+Выполните команду  
+    `docker build -t mlops-ods-2024 .`
+
+## Запуск Docker образа
+Выполните команду  
+    `docker run -it mlops-ods-2024`
+
 ## Участие в проекте (Contributing)
 Файл [CONTRIBUTING.md](CONTRIBUTING.md) содержит инструкции для тех, кто хочет внести свой вклад в проект.
